@@ -10,6 +10,7 @@ Lately I've been thinking about a narrower problem: how to make AI agents do rel
 
 - **[kerby](https://github.com/sorawit-w/kerby)** — an AI agent governance harness. A GATE → WEIGH → VERDICT loop that makes rules land at decision time, not just live in a doc. Three-token verdicts: PASS / DENIED / HELD.
 - **[agent-skills](https://github.com/sorawit-w/agent-skills)** — a shelf of opinionated Claude Code plugins — each one narrow, each evaluated before it ships. Treats skill authoring as harness engineering — context, scaffolding, feedback loops, state, eval discipline *around* the agent.
+- **[job-scout](https://github.com/sorawit-w/job-scout)** — an agent skill that finds open jobs that fit your resume, read straight from employer job boards (Greenhouse, Ashby, Lever, SmartRecruiters, Workday). Nothing is searched until you confirm the brief, and every fit reason is quoted from the posting and checked by a script. Standard-library Python, ~14,000 verified boards.
 - **[declair.ai](https://declair.ai)** — decision-clarity platform built solo end-to-end. Pairwise comparison, Condorcet aggregation, real-time SSE, 20-locale i18n. SvelteKit · Elysia/Bun · PostgreSQL.
 - **[konthai](https://github.com/sorawit-w/konthai)** — decodes deliberately mangled Thai (สก๊อย glyph swaps, ciphers, spoonerisms) back to standard Thai + English. A parser for the messiest real-world input I could find.
 
